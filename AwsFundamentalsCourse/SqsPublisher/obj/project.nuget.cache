@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JGupElskTp67YFPCZWRGo3BjfKz6tOhaeL7PPVI9HZweTW7rzpwTHK6ebtVRiWIFoX8xH7Kuh3xmdw9Yxy3nfg==",
+  "success": true,
+  "projectFilePath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SqsPublisher/SqsPublisher.csproj",
+  "expectedPackageFiles": [
+    "/Users/ktrush/.nuget/packages/awssdk.core/3.7.300.26/awssdk.core.3.7.300.26.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/awssdk.sqs/3.7.300.26/awssdk.sqs.3.7.300.26.nupkg.sha512"
+  ],
+  "logs": []
+}

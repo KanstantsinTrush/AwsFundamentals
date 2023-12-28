@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NBFc2EUpTCRxbrMBwHsg8SpZKj/bcbSdULDp2Dsu2YxQY9vor5ewaT1qsuiHC3oplswY8wUusHtmQy+bsoYoEQ==",
+  "success": true,
+  "projectFilePath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Consumer/Customers.Consumer.csproj",
+  "expectedPackageFiles": [
+    "/Users/ktrush/.nuget/packages/awssdk.core/3.7.300.27/awssdk.core.3.7.300.27.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/awssdk.sqs/3.7.300.27/awssdk.sqs.3.7.300.27.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

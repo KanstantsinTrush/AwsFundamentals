@@ -1,0 +1,166 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AWSSDK.Core/3.7.300.26": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.300.26": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.300.26, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.300.26": {
+      "sha512": "27k3TQxZQu7bTsmOZwc+cDIeIzV4Tn2FsQgMzwkCqdA79PrFzBj/y02LB4jR5oHARFLF3uOYs2o1OriXxtbBmQ==",
+      "type": "package",
+      "path": "awssdk.core/3.7.300.26",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.300.26.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.7.300.26": {
+      "sha512": "MjG21UcD+E6nvE/ACVqwN19sGeapguhwLQPW08cB0hf5ZKPCQx/a8RyaKB937zj2U9sS31FAU0JLM25OGVxE7Q==",
+      "type": "package",
+      "path": "awssdk.sqs/3.7.300.26",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.sqs.3.7.300.26.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/net8.0/AWSSDK.SQS.dll",
+        "lib/net8.0/AWSSDK.SQS.pdb",
+        "lib/net8.0/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AWSSDK.SQS >= 3.7.300.26"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ktrush/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SqsConsumer/SqsConsumer.csproj",
+      "projectName": "SqsConsumer",
+      "projectPath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SqsConsumer/SqsConsumer.csproj",
+      "packagesPath": "/Users/ktrush/.nuget/packages/",
+      "outputPath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SqsConsumer/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ktrush/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AWSSDK.SQS": {
+            "target": "Package",
+            "version": "[3.7.300.26, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
