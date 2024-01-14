@@ -1,0 +1,10 @@
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/SimpleHttpLambda.deps.json
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/SimpleHttpLambda.runtimeconfig.json
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/SimpleHttpLambda.pdb
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Amazon.Lambda.Annotations.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Amazon.Lambda.APIGatewayEvents.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Amazon.Lambda.Core.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Microsoft.Extensions.DependencyInjection.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleHttpLambda/src/SimpleHttpLambda/bin/Release/net6.0/publish/SimpleHttpLambda.dll

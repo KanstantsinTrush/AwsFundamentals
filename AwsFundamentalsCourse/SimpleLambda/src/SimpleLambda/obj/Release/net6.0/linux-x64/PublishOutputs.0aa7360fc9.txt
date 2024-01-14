@@ -1,0 +1,6 @@
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/SimpleLambda.deps.json
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/SimpleLambda.runtimeconfig.json
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/SimpleLambda.pdb
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/Amazon.Lambda.Core.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SimpleLambda/src/SimpleLambda/bin/Release/net6.0/publish/SimpleLambda.dll

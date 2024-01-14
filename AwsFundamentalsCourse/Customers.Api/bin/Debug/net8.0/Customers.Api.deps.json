@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "Customers.Api/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.300.28",
+          "AWSSDK.S3": "3.7.305.6",
           "AWSSDK.SQS": "3.7.300.26",
+          "AWSSDK.SimpleNotificationService": "3.7.300.27",
           "Dapper": "2.1.24",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
@@ -19,17 +22,50 @@
           "Customers.Api.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.300.26": {
+      "AWSSDK.Core/3.7.301.1": {
         "runtime": {
           "lib/net8.0/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.300.26"
+            "fileVersion": "3.7.301.1"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.300.28": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.301.1"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.300.28"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.305.6": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.301.1"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.305.6"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.300.27": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.301.1"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.300.27"
           }
         }
       },
       "AWSSDK.SQS/3.7.300.26": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.300.26"
+          "AWSSDK.Core": "3.7.301.1"
         },
         "runtime": {
           "lib/net8.0/AWSSDK.SQS.dll": {
@@ -301,12 +337,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.7.300.26": {
+    "AWSSDK.Core/3.7.301.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-27k3TQxZQu7bTsmOZwc+cDIeIzV4Tn2FsQgMzwkCqdA79PrFzBj/y02LB4jR5oHARFLF3uOYs2o1OriXxtbBmQ==",
-      "path": "awssdk.core/3.7.300.26",
-      "hashPath": "awssdk.core.3.7.300.26.nupkg.sha512"
+      "sha512": "sha512-YGDDRdjENCHs3RXb4ohYTwCeEjk35IVos+sMBC4bnChYKcl8o8O1ZSZxFk0Ux1OOz2bGFix2V70c4YQz1iJBtw==",
+      "path": "awssdk.core/3.7.301.1",
+      "hashPath": "awssdk.core.3.7.301.1.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.300.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PkdztpjSapbS2c1ufT5vnyM3FaNbcJ3Vn8QjMCJEv1rc8iYD+i3G6VRd0D21+41aH5rLxh7pGyHG/hq3qcEdIQ==",
+      "path": "awssdk.dynamodbv2/3.7.300.28",
+      "hashPath": "awssdk.dynamodbv2.3.7.300.28.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.305.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PB2jnkFksv8UaPZ/XB+eRMvmx/GKpPs2bKqqi6rq+50fPu4F/nm2aBdL+5rx03eBxrTUK9iuY0vWDw2cFHee8A==",
+      "path": "awssdk.s3/3.7.305.6",
+      "hashPath": "awssdk.s3.3.7.305.6.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.7.300.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L8fWjnReMzfj0I4JYoHKxb+5PiCCbNlXPr+Mc/lCTrNJisQjfYT9n/9X5nh24tXv+WJV5yWyu09hRV8tDa+f7Q==",
+      "path": "awssdk.simplenotificationservice/3.7.300.27",
+      "hashPath": "awssdk.simplenotificationservice.3.7.300.27.nupkg.sha512"
     },
     "AWSSDK.SQS/3.7.300.26": {
       "type": "package",

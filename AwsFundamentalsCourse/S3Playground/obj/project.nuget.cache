@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Ebj0U03vZkTSRJGB/uIBbAI+MZoMT0n1ZOdWXAs0JGN+kJOlMNfNv/5lWUDsVu4xvxXTi8faE5AitcnimY6tg==",
+  "success": true,
+  "projectFilePath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/S3Playground/S3Playground.csproj",
+  "expectedPackageFiles": [
+    "/Users/ktrush/.nuget/packages/awssdk.core/3.7.301.1/awssdk.core.3.7.301.1.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/awssdk.s3/3.7.305.6/awssdk.s3.3.7.305.6.nupkg.sha512"
+  ],
+  "logs": []
+}

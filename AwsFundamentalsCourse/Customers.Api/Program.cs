@@ -1,3 +1,6 @@
+using Amazon.DynamoDBv2;
+using Amazon.S3;
+using Amazon.SimpleNotificationService;
 using Amazon.SQS;
 using Customers.Api.Database;
 using Customers.Api.Messaging;
@@ -37,8 +40,19 @@ builder.Services.AddSingleton<IDbConnectionFactory>(_ =>
 builder.Services.AddSingleton<DatabaseInitializer>();
 
 builder.Services.Configure<QueueSettings>(builder.Configuration.GetSection(QueueSettings.Key));
+builder.Services.Configure<TopicSettings>(builder.Configuration.GetSection(TopicSettings.Key));
+builder.Services.Configure<DynamoDbSettings>(builder.Configuration.GetSection(DynamoDbSettings.Key));
+
 builder.Services.AddSingleton<IAmazonSQS, AmazonSQSClient>();
 builder.Services.AddSingleton<ISqsMessenger, SqsMessenger>();
+
+builder.Services.AddSingleton<IAmazonSimpleNotificationService, AmazonSimpleNotificationServiceClient>();
+builder.Services.AddSingleton<ISnsMessenger, SnsMessager>();
+
+builder.Services.AddSingleton<IAmazonDynamoDB, AmazonDynamoDBClient>();
+
+builder.Services.AddSingleton<IAmazonS3, AmazonS3Client>();
+builder.Services.AddSingleton<ICustomerImageService, CustomerImageService>();
 
 builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
 builder.Services.AddSingleton<ICustomerService, CustomerService>();

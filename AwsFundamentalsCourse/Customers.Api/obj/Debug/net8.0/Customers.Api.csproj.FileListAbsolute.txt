@@ -124,3 +124,7 @@
 /Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/obj/Debug/net8.0/Customers.Api.pdb
 /Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/obj/Debug/net8.0/Customers.Api.genruntimeconfig.cache
 /Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/obj/Debug/net8.0/ref/Customers.Api.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/bin/Debug/net8.0/AWSSDK.SimpleNotificationService.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/obj/Debug/net8.0/Customers.Api.sourcelink.json
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/bin/Debug/net8.0/AWSSDK.DynamoDBv2.dll
+/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/Customers.Api/bin/Debug/net8.0/AWSSDK.S3.dll

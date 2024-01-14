@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "00MAjW8Z/HMhvctrm0MX3AkDLOwnon16bpBH+qq1v6d+d/zivuIHIo6W9nFSU4PYD5Wdh7b0Mo4tEbLzRCaUNQ==",
+  "success": true,
+  "projectFilePath": "/Users/ktrush/Desktop/Aws/AwsFundamentals/AwsFundamentalsCourse/SecretManager.App/SecretManager.App.csproj",
+  "expectedPackageFiles": [
+    "/Users/ktrush/.nuget/packages/awssdk.core/3.7.301.4/awssdk.core.3.7.301.4.nupkg.sha512",
+    "/Users/ktrush/.nuget/packages/awssdk.secretsmanager/3.7.302.9/awssdk.secretsmanager.3.7.302.9.nupkg.sha512"
+  ],
+  "logs": []
+}

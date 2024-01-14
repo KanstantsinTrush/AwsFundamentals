@@ -38,9 +38,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.300.28, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.305.6, )"
+            },
             "AWSSDK.SQS": {
               "target": "Package",
               "version": "[3.7.300.26, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.7.300.27, )"
             },
             "Dapper": {
               "target": "Package",

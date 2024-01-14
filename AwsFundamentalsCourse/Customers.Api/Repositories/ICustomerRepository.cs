@@ -10,7 +10,7 @@ public interface ICustomerRepository
 
     Task<IEnumerable<CustomerDto>> GetAllAsync();
 
-    Task<bool> UpdateAsync(CustomerDto customer);
+    Task<bool> UpdateAsync(CustomerDto customer, DateTime requestCreated);
 
     Task<bool> DeleteAsync(Guid id);
 }

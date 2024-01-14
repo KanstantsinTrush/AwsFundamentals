@@ -8,6 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.300.28" />
+        <PackageReference Include="AWSSDK.S3" Version="3.7.305.6" />
+        <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.300.27" />
         <PackageReference Include="AWSSDK.SQS" Version="3.7.300.26" />
         <PackageReference Include="Dapper" Version="2.1.24" />
         <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />

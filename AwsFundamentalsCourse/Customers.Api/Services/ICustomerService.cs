@@ -10,7 +10,7 @@ public interface ICustomerService
 
     Task<IEnumerable<Customer>> GetAllAsync();
 
-    Task<bool> UpdateAsync(Customer customer);
+    Task<bool> UpdateAsync(Customer customer, DateTime requestCreated);
 
     Task<bool> DeleteAsync(Guid id);
 }
